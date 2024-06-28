@@ -1,0 +1,77 @@
+.hero-container-main{
+    background-color: red;
+    width: 100%;
+    height: 45%;
+    border-radius: 16.7px;
+}
+.hero-container-main .text-hero-main-todo{
+    width: 100%;
+    height: 100%;
+}
+.hero-container-main .text-hero-main-todo .navbar-avaiable{
+    width: 97%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.navbar-avaiable .work-active{
+    width: 155px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 1em;
+    padding: 15px;
+}
+.work-active .dot{
+    background-color: #80ed99;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: parpadeo linear infinite 0.7s;
+}
+.work-active span{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+@keyframes parpadeo {
+    0%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.context-text-hero{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1638184984605-af1f05249a56?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16.7px;
+}
+.title-and-contact{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+.tile{
+    width: 700px;
+    font-size: 2.4rem;
+    opacity: .9;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.contacts{
+    width: 100%;
+}

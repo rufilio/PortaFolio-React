@@ -1,0 +1,78 @@
+.skills-container-main{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+.skills-container-main .title{
+    width: 100%;
+    height: 70px;
+    display: grid;
+    place-content: center;
+}
+.skills-container-main .title .title{
+    text-align: center;
+}
+.skills-container-main .title .title span{
+    font-size: 12px;
+    color: #222222;
+    text-transform: capitalize;
+}
+.skills-container-main .title .title h1{
+    font-size: 1.5rem;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.skills-container-main .show-skills-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr; 
+    padding: 15px;
+}
+
+.front-end{
+    background-color: #fbfbfbfb;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 300px;
+    border-radius: 16.5px;
+    display: grid;
+    place-content: center;
+}
+ .front-end .titlee{
+    font-size: 17px;
+    color: #222222;
+}
+ .front-end .itemn-s{
+    width: 300px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 60px  60px 60px ;
+    gap: 10px;
+    justify-content: center;
+    padding: 15px;
+}
+ .front-end .itemn-s .skills-t{
+    color: #222222;
+    font-size: 50px;
+}
+
+
+
+[data-animation="show"]{
+    opacity: 0;
+    transform: scale(100%);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: scale(0):
+}
+
+.unset {
+    opacity: var(--opacity);
+    transform: var(--transform);
+}
