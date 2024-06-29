@@ -1,6 +1,6 @@
 import React from 'react'
 import './WidgetsStyle/Skills.css'
-import {Fade, Zoom} from 'react-awesome-reveal'
+import {Zoom} from 'react-awesome-reveal'
 
 export const Skills = () => {
 
