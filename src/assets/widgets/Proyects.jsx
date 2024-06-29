@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './WidgetsStyle/Proyects.css'
 import {db} from '../firebase/Config'
-import { collection, getDocs, query, where } from "firebase/firestore";
+import { collection, getDocs} from "firebase/firestore";
 import {Fade} from 'react-awesome-reveal'
 
 

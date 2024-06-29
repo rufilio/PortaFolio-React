@@ -22,25 +22,25 @@ export const Skills = () => {
                 </div>
                 <div className="itemn-s">
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-html5' ></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-html5' ></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-css3' ></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-css3' ></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-javascript'></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-javascript'></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-react'></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-react'></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-tailwind-css' ></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-tailwind-css' ></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class="ri-nextjs-line"></i></a>
+                        <a href="#" className='skills-t'><i class="ri-nextjs-line"></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class="ri-vuejs-line"></i></a>
+                        <a href="#" className='skills-t'><i class="ri-vuejs-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -50,16 +50,16 @@ export const Skills = () => {
                 </div>
                 <div className="itemn-s">
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-php'></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-php'></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-nodejs'></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-nodejs'></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-firebase'></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-firebase'></i></a>
                     </div>
                     <div className="item">
-                        <a href="" className='skills-t'><i class='bx bxl-mongodb'></i></a>
+                        <a href="#" className='skills-t'><i class='bx bxl-mongodb'></i></a>
                     </div>
                 </div>
             </div>
